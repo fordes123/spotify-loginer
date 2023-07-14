@@ -45,7 +45,7 @@ python login.py -e <email> -p <password>
 
 1. Fork 本仓库
 2. 在仓库的 Settings -> Secrets 中添加以下 Secrets:
-   - `SPOTIFY_EMAIL`: Spotify 账号邮箱
+   - `SPOTIFY_USERNAME`: Spotify 账号邮箱
    - `SPOTIFY_PASSWORD`: Spotify 账号密码
 3. 在仓库的 Actions 中启用 GithubAction, 选中 `Run Spotify Loginer`，点击 `Run workflow` 手动运行一次
 4. Enjoy it!
