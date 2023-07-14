@@ -9,7 +9,7 @@ import sys, argparse, time
 
 def main():
    parser = argparse.ArgumentParser()
-   parser.add_argument("-e", "-u", "--username", "--email", help="Spotify account email", required=True)
+   parser.add_argument("-e", "-u", "--email", help="Spotify account email", required=True)
    parser.add_argument("-p", "--password", help="Spotify account password", required=True)
    args = parser.parse_args()
 
